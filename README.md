@@ -1,7 +1,7 @@
 ## Voldemort
 
 Voldemort is a simple static site generator using Jinja2 and markdown templates.
-
+# WEBSITE LINK IS GIVEN HERE ➡https://pypi.org/project/voldemort/
 ## Installation
 
     sudo python setup.py install
@@ -52,7 +52,7 @@ Deploy the website
 
 ## Writing posts
 
-Posts mainly contain 2 sections. Config section and the Template section. All data inside two `---` defines the config and are validated as YAML data. You can set your post related attributes here. In template section you can use Jinja2 templates or Markdown in `{% markdown %}` and `{% endmarkdown %}` blocks (You could ignore these blocks if `layout` is defined in the metadata section).
+Posts mainly contain of 2 sections. Config section and the Template section. All data inside two `---` defines the config and are validated as YAML data. You can set your post related attributes here. In template section you can use Jinja2 templates or Markdown in `{% markdown %}` and `{% endmarkdown %}` blocks (You could ignore these blocks if `layout` is defined in the metadata section).
 
 As per Voldemort's default configuration, all base templates should be in `layout` and `include` directories. This is not a hard limitation, but kept for preserving the meaning. Posts are written in a directory named `posts`. For example, we have a directory structure as shown below
 
@@ -68,7 +68,7 @@ As per Voldemort's default configuration, all base templates should be in `layou
 		screen.css
 		pygments.css
 
-And we have the following data in `layout/listing.html`
+And we have the following data in `layout/listing.html` 
 
 	<!DOCTYPE html>
 	<html lang="en-US">
@@ -85,7 +85,7 @@ And we have the following data in `layout/listing.html`
 	</body>
 	</html>
 
-and `include/header.html` contains
+and `include/header.html` it contains
 
 	<meta charset="UTF-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -161,7 +161,7 @@ User defined data should only be added under `site` as shown below
 	    author_name : "Sreejith Kesavan"
 	    author_email: "sreejithemk@gmail.com"
 
-and you may deploy your website to a preferred location or GitHub itself.
+and you may deploy your website to preferred the location or GitHub itself.
 
 	deploy :
     		user  : semk
